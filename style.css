@@ -1,0 +1,122 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: 'DM Sans';
+}
+
+body {
+  font-size: 1.6rem;
+  background: linear-gradient(288deg, #C2E9FB 0%, #A1C4FD 100%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main section {
+  background-color: #fff;
+  padding: 4.8rem 6.4rem;
+  margin: 0 3rem;
+  border-radius: 5px;
+}
+
+
+main section > h1 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: #34355B;
+}
+
+main section p {
+  font-size: 1.6rem;
+  color: rgba(52, 53, 91, 0.80);
+  margin: 1.6rem 0 6.4rem;
+}
+
+.game-radom {
+  display: flex;
+  justify-content: center;
+  
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; 
+}
+
+input[type=number]{
+  -moz-appearance: textfield;
+}
+
+
+.game-radom input {
+  appearance: none;
+  width: 5rem;
+  outline: none;
+  border: none;
+  background: #DCE2E9;
+  border-radius: 4px 0 0 4px;
+  text-align: center;
+  padding: 0 .8rem;
+  color: #34355B;
+  font-size: 1.6rem;
+}
+
+.game-radom button {
+  border: none;
+  font-size: 1.6rem;
+  color: #fff;
+  background: #7879F1;
+  padding: 1.6rem;
+  border-radius: 0px 4px 4px 0px;
+  transition: all ease-out .3s;
+  cursor: pointer;
+}
+
+.game-radom button:hover {
+  transform: scale(1.01);
+}
+
+.screen2 h2 {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  margin-bottom: 3.3rem;
+}
+
+.screen2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screen2 button {
+  width: 80%;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+  background: #7879F1;
+  padding: 1.6rem;
+  border-radius: 4px;
+  transition: all ease-out .3s;
+  cursor: pointer;
+}
+
+.screen2 button:hover {
+  transform: scale(1.02);
+}
+
+.hide {
+  display: none;
+}
